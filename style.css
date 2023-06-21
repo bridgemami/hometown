@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url('./images/hero_jpg.jpg');
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+    color:#F1FAEE;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#heading {
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 10px 50px;
+    display: inline;
+}
+
+#sub {
+    background-color: #457B9D;
+    display: inline;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+#activities {
+    background-color: #A8DADC;
+    color:#1D3557;
+    display: flex;
+    flex-direction: column;
+}
+
+#choice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.column {
+    width: 33.3vw;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic_act {
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+#guide {
+width: 500px;
+margin: 50px auto;
+background-color: #E63946;
+padding: 25px;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+border-bottom: #1D3557 solid 5px;
+}
+
+#description {
+display: flex;
+flex-direction: column;
+}
+
+#head {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.italics {
+    font-style: italic;
+}
