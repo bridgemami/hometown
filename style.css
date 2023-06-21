@@ -59,7 +59,7 @@ background-position:center;
 
 #choice {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     
@@ -69,7 +69,7 @@ background-position:center;
     height: 252px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
