@@ -60,13 +60,13 @@ background-position:center;
 #choice {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   align-items: flex-start;
     padding: 20px 0;
     
 }
 .column {
     width: 33.3vw;
-    height: 252px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
